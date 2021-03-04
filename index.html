@@ -9,20 +9,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="360ImageRotate.min.js"></script>
     <script>
-        $( document ).ready(function() {
-            $('.product').TreeSixtyImageRotate({
-                totalFrames: 36,
-                endFrame: 36,
-                currentFrame: 0,
-                extension: ".png",
-                imagesFolder: "images/prod1/",
-                smallWidth: 800,
-                smallHeight: 800,
-                largeWidth: 1200,
-                largeHeight: 1200,
-                imagePlaceholderClass: "images-placeholder"
-            }).initTreeSixty();
-            $('.product1').TreeSixtyImageRotate({
+        $( document ).ready(function() 
+        {
+            $('.product1').TreeSixtyImageRotate(
+            {
                 totalFrames: 36,
                 endFrame: 36,
                 currentFrame: 0,
@@ -71,3 +61,4 @@
 </script>
 </body>
 </html>
+
